@@ -1,3 +1,4 @@
+# syntax=docker/dockerfile:experimental
 #build-sage
 FROM daocloud.io/library/node:12 as build
 WORKDIR /usr/src
