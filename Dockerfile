@@ -14,4 +14,4 @@ RUN --mount=type=cache,id=node_modules_cache,target=/usr/src/node_modules,rw npm
 
 # final-stage
 FROM daocloud.io/library/nginx:latest
-COPY --from=build /usr/src/dist /usr/share/nginx/html
+COPY --from=build /usr/src/web/dist /usr/share/nginx/html
