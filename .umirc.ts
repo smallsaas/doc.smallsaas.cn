@@ -17,12 +17,7 @@ export default defineConfig({
     },
     {
       title: "Github",
-      children: [
-        {
-          path: "https://github.com/smallsaas/docs.smallsaas.cn",
-          title: "关于我们"
-        }
-      ]
+      path: "https://github.com/smallsaas/docs.smallsaas.cn"
     }
   ],
   menus: {
