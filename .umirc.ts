@@ -12,7 +12,7 @@ export default defineConfig({
       title: "项目开发"
     },
     {
-      path: "http://docs1.smallsaas.cn",
+      path: "http://docs1.smallsaas.cn/",
       title: "zero-element"
     },
     {
