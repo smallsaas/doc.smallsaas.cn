@@ -21,14 +21,10 @@ export default defineConfig({
     }
   ],
   menus: {
-    "/git": [
+    "/hide": [
       {
-        title: "git工具的使用",
-        path: "/git/git工具的使用"
-      },
-      {
-        title: "github登不上或不稳定解决方法",
-        path: "/git/github解决方法"
+        title: "动态表单DSL定义",
+        path: "/hide/View"
       }
     ]
   }
