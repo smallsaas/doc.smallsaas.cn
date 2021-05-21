@@ -19,13 +19,22 @@ export default defineConfig({
       title: "Github",
       path: "https://github.com/smallsaas/docs.smallsaas.cn"
     }
-  ],
-  menus: {
-    "/hide": [
-      {
-        title: "动态表单DSL定义",
-        path: "/hide/View"
-      }
-    ]
-  }
+  ]
+  // menus: {
+  //   "/development":[
+  //     {
+  //       path:"/devlopment/测试",
+  //       title:'测试',
+  //       children:[
+  //         {path:""}
+  //       ]
+  //     },
+  //     {
+
+  //     },
+  //     {
+
+  //     },
+  //   ]
+  // }
 });
